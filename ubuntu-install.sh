@@ -31,11 +31,16 @@ sudo pip3 install pygame
 sudo pip3 install simpy
 sudo pip3 install tushare # stock data
 # --- install tensorflow in fish sh.
+sudo pip3 install pymysql
 sudo pip3 install tensorflow
-# if use virtualenv
+### if use virtualenv
 #sudo pip3 install virtualenv # for tensorflow
 #virtualenv  --system-site-packages  ~/tensorflow
 #fish -c "~/tensorflow/bin/pip3 install --upgrade tensorflow"
+### if manually download
+#https://pypi.python.org/pypi/tensorflow #download from here
+#sudo -H pip3 install --upgrade tensorflow-x.y.z-cp35-cp35m-linux_x86_64.whl
+#
 sudo pip3 install findspark
 # findspark with lib., instead of add spark_home/python to pythonpath
 
