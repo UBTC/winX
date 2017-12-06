@@ -32,7 +32,7 @@ conda install tensorflow
 conda install virtualenv
 conda install findspark
 conda install pymysql
-
+conda install py-xgboost
 #mkdir -p C:\Users\mw\.ipython\profile_default\startup\
 cd C:\Users\mw\.ipython\profile_default\startup\
 wget https://raw.githubusercontent.com/UBTC/gopy/master/profile_default/startup/10-init.py
